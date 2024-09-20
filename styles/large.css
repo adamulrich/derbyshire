@@ -59,4 +59,12 @@
     width: 30%;
     height: auto;
   }
+
+  div.status-card {
+    margin-left: 50px;
+    width: 90%;
+    margin: 0, auto;
+  }
+  
 }
+

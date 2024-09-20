@@ -696,7 +696,7 @@ iframe.blank-target {
 }
 
 .status-card {
-  grid-column: 2/5;
-  width: 500px;
+  grid-column: 1/5;
+  width: 400px;
   width: max-content;
 }
