@@ -663,3 +663,10 @@ div.contact-card {
   margin-top: 2px;
   margin-bottom: 2px;  
 }
+
+div.contact-about-card {
+  grid-column: 2/4;
+  grid-row:1/6;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
