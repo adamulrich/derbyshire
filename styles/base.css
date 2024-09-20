@@ -392,10 +392,6 @@ div.home-page-card img {
   height: auto;
 }
 
-.weather-card {
-  
-}
-
 div.weather-card img {
   width: 40px;
   margin: 0 auto;
@@ -586,22 +582,6 @@ button.submit-btn:hover {
   color: #fff;
 }
 
-div.drink-nutrition-outer-div,
-div.drink-list-outer-div,
-div.drink-qr-outer-div,
-form.drink-order-form {
-  border: 1px solid var(--accent5-color);
-  border-radius: 10px;
-  width: 260px;
-  margin: 1.5rem auto 0;
-  padding: 10px 0;
-}
-
-div.drink-nutrition-outer-div,
-div.drink-list-outer-div {
-  justify-self: start;
-}
-
 fieldset {
   border: none;
 }
@@ -610,38 +590,6 @@ table tr td h2,
 table tr td p {
   margin: 5px 0 0 4px;
   font-size: small;
-}
-
-table.drink-nutrition-table tr td:nth-child(1) {
-  width: 80px;
-}
-
-table.drink-nutrition-table tr td:nth-child(2) {
-  width: 170px;
-  max-width: 170px;
-  overflow-wrap: anywhere;
-}
-
-div.drink-qr-outer-div img {
-  margin-top: 20px;
-  display: block;
-}
-
-div.drink-qr-outer-div {
-  display: none;
-}
-
-div.drink-qr-outer-div.has-qr {
-  display: block;
-}
-
-div.drink-qr-outer-div h3 {
-  margin: 20px;
-}
-
-table.drink-list tr td p {
-  margin: 10px;
-  font-size: medium;
 }
 
 .margin20 {
@@ -699,4 +647,19 @@ iframe.blank-target {
   grid-column: 1/5;
   width: 400px;
   width: max-content;
+}
+
+div.contact-card-container {
+  gap: 0px;
+}
+
+div.contact-card {
+  grid-column: 1/2;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.contact {
+  margin-top: 2px;
+  margin-bottom: 2px;  
 }

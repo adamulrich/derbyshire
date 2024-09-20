@@ -1,0 +1,51 @@
+<footer>
+    <div class="footer-address">
+        <div class="footer-logo">
+            <img class="footer-logo" src="images/dw-logo_128.jpg" alt="Derbyshire Water logo" width="76" height="76" >
+        </div>
+        <div class="address">
+            <h2 class="footer-first-line"><span class="first-line">Derbyshire Water</span>
+                
+            </h2>
+            <p class="p-tight">PO Box 64</p>
+            <p class="p-tight">Kent, WA 98035</p>
+        </div>
+    </div>
+    <div class="footer-contact-info">
+        <p><a href="mailto:derbyshire.water@gmail.com">derbyshire.water@gmail.com</a></p>
+
+        <a class="map-link"
+            href="https://www.google.com/maps/place/11810+SE+282nd+St,+Kent,+WA+98030/@47.3490527,-122.1838124,185m/data=!3m1!1e3!4m14!1m7!3m6!1s0x54905f2ca2d78255:0x50e6e2925f7a360d!2s11805+SE+282nd+St,+Auburn,+WA+98092!3b1!8m2!3d47.348531!4d-122.1839815!3m5!1s0x54905f2ca7e261d7:0x8a674c4b6f22e47!8m2!3d47.3491787!4d-122.1837519!16s%2Fg%2F11cplk5pf3?entry=ttu&g_ep=EgoyMDI0MDkxNi4wIKXMDSoASAFQAw%3D%3D">📍Find us!</a>
+    </div>
+    <div class="footer-logo large-view">
+        <img class="footer-logo" src="images/dw-logo_128.jpg" alt="Derbyshire Water logo" width="76" height="76" >
+    </div>
+    <hr>
+    <div class="footer-footer">
+        <div class="footer-footer-top-row">
+            <p>©<span id="year"></span> Derbyshire Water</p>
+            <p><span class="vertical-bar">|</span></p>
+            <p><b>Adam Ulrich</b>
+        </div>
+        <div class="footer-footer-bottom-row">
+            <p>
+                Last Updated: <span id="timestamp"></span>
+            </p>
+        </div>
+    </div>
+    <div class="credit">
+        <p>
+            Weather Data from OpenWeatherMap.com
+        </p>
+        <p>
+            <a href="attribution.html">Attribution Credits</a>
+        </p>
+    </div>
+    <script>
+        // set date values on footer
+        date = new Date();
+        document.querySelector("#year").textContent = date.getFullYear();
+        document.querySelector("#timestamp").textContent= document.lastModified;
+
+    </script>
+</footer>
