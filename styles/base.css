@@ -129,6 +129,10 @@ h3 {
   font-size: x-large;
 }
 
+h4 {
+  font-size: large;
+}
+
 hr {
   height: 5px;
   width: 100%;
@@ -386,6 +390,10 @@ div.home-page-card img {
   width: 100%;
   max-width: 400px;
   height: auto;
+}
+
+.weather-card {
+  
 }
 
 div.weather-card img {
@@ -685,4 +693,10 @@ iframe.blank-target {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
+}
+
+.status-card {
+  grid-column: 2/5;
+  width: 500px;
+  width: max-content;
 }
