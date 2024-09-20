@@ -621,18 +621,18 @@ iframe.blank-target {
 .SmartBoard_Subject {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .SmartBoard_DateTime {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-variant: small-caps;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .SmartBoard_Message {
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .notifications {
