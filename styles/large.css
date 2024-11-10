@@ -53,6 +53,11 @@
     width: 90%;
     margin: 0, auto;
   }
+
+  .SmartBoard_Table {
+    max-width: 75%;
+    margin: 0, auto;
+  }
   
 }
 
