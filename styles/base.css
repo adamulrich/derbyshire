@@ -208,7 +208,7 @@ div.home-page-card {
   outline: 2px solid black;
   padding: 0.75em;
   margin: 5px;
-  width: 100%;
+  width: auto;
 }
 
 div.card-container,
@@ -390,6 +390,10 @@ div.home-page-card img {
   width: 100%;
   max-width: 400px;
   height: auto;
+}
+
+div.weather-card {
+  width: 100%
 }
 
 div.weather-card img {

@@ -24,7 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="scripts/jquery-3.7.1.min.js"></script>
-    <script src="scripts/script.js" defer></script>
+    <script src="scripts/script.js"></script>
     <script src="scripts/weather.js" defer></script>
     <script type="text/javascript">
         $(function(){
@@ -32,7 +32,10 @@
             $(this).load($(this).data("load"), function(){
             });
         });
-    })
+        })
+        displayNewsIfValid();
+        displayBannerIfValid();
+
     </script>
     <title>Derbyshire Water</title>
 </head>
@@ -51,6 +54,9 @@
                     alt="image of pumphouse" >
             </picture>
         </div>
+        <div class="banner notification home-page-card">
+        </div>
+
         <div class="card-container">
             <div class="weather-card home-page-card">
                 <h2 class="">Current Weather</h2>
@@ -144,6 +150,12 @@
                 </div>
             </div>
             <div class="about-card home-page-card">
+                <div>
+                    <h3 class="news-header">News</h3>
+                    <ul class="news-list">
+                    </ul>
+                </div>
+
                 <h2>About The Derbyshire Scenic Acres Water Association</h2>
                 <img src="images/dwmap.jpg" alt="system aerial map" width="400" height="225">
                 <p>Our water district was founded in unincorporated King County in 1960, the nearest city being Kent. 
@@ -171,6 +183,27 @@
             </div>
 
             <div class="home-page-card status-card">
+                <h2>Recent water system updates</h2>
+                <ul>
+                    <li>
+                        Starting July 3rd, we started to have low water pressure in the system. Nothing at the pump house appeared
+                        to be wrong. Over the next couple days, we continued to have low pressure, and the reservior was 
+                        found to be low. We called Northwest Water Service (NWS) out to help 2 leaks that were identified. The first 
+                        was a small leak on a lateral line between two homes on the west end of 282nd st. The second leak was large. While
+                        nearly all of our lines run in the right of way next to the streets, we do have one line that was put along a
+                        back fence line at the north edge of the system. Currently that area is covered with blackberries, so it
+                        can be difficult to know if we have a leak in that line. <br>
+                        We did indeed have a break back there, a union had been eroded over time by a small leak, and now it was
+                        leaking a lot. You can see the union and the blackberries covering this area below.
+                    </li>
+                    <img src="images/coupler_july_25.jpg" >
+                    <img src="images/blackberries_july_25.jpg" >
+                
+                    <li>
+                        July 9,10: We've been having problems with our chlorine pump; it stopped adding chlorine. NWS was out for a couple days,
+                        and was able to rebuild the pump. So Chlorine levels are back to normal.
+                    </li>
+                </ul>
                 <h2>Main replacement project status</h2>
                 <p >Association Board approved three motions this last year. The first was to request a loan from the State of Washington 
                     through the Perpetual Water fund to fund Northwest Water Services to create a plan to replace our aging water 
@@ -204,6 +237,12 @@
                     with a grant writing company who specializes in identifying and preparing the grant submission paperwork. We are in the process
                     of applying for a grant that would cover up to 50% of the cost. Current costs are estimated to be over $1,000,000, so we are 
                     hopeful that a grant is approved. The grant application will be submitted prior to Oct 7, 2024.
+                </p>
+                <h4>Status 7/11/2025</h4>
+                <p>
+                    All government grants were put on hold at the beginning of the year, so we were not able to secure a grant.
+                    Our loan was not approved by the State of Washington. The board is looking at alternative plans to be able to 
+                    do the project incrementally.
                 </p>
 
             </div>
