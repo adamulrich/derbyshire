@@ -609,7 +609,7 @@ iframe.blank-target {
   display: none;
 }
 
-.SmartBoard_Table {
+.Widgets_Table {
   padding: 5px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   border: thin solid #000000;
@@ -617,24 +617,24 @@ iframe.blank-target {
   font-size: 10px;
 }
 
-.SmartBoard_Row {
+.WidgetsBoard_Row {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   color: red
 }
 
-.SmartBoard_Subject {
+.WidgetsBoard_Subject {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 11px;
 }
 
-.SmartBoard_DateTime {
+.WidgetsBoard_DateTime {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-variant: small-caps;
   font-size: 12px;
 }
 
-.SmartBoard_Message {
+.WidgetsBoard_Message {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 12px;
 }
