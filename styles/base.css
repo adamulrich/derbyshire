@@ -648,9 +648,7 @@ SmartBoard_Subject {
 }
 
 .status-card {
-  grid-column: 1/5;
-  width: 400px;
-  width: max-content;
+  width: 100%;
 }
 
 div.contact-card-container {
