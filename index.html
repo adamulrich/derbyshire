@@ -27,21 +27,21 @@
     <script src="scripts/script.js"></script>
     <script src="scripts/weather.js" defer></script>
     <script type="text/javascript">
-        $(function(){
-        $("[data-load]").each(function(){
-            $(this).load($(this).data("load"), function(){
+        $(function () {
+            $("[data-load]").each(function () {
+                $(this).load($(this).data("load"), function () {
+                });
             });
-        });
         })
         displayNewsIfValid();
         displayBannerIfValid();
-
     </script>
     <title>Derbyshire Water</title>
 </head>
-<div data-load="header.html"></div>
+
 <body>
-   
+    <div data-load="header.html"></div>
+
     <main>
         <div class="notifications">
             <script type="text/javascript" src="https://widgets.omnilert.net/6d96e3823b67df236c62-13308"></script>
@@ -50,8 +50,7 @@
             <picture class="hero-image-container">
                 <source srcset="images/pumphouse.png" media="(min-width:748px) and (max-width:1199px)">
                 <source srcset="images/pumphouse.png" media="(min-width:1200px)">
-                <img src="images/pumphouse.png" class="hero-img" width="400" height="225"
-                    alt="image of pumphouse" >
+                <img src="images/pumphouse.png" class="hero-img" width="400" height="225" alt="image of pumphouse">
             </picture>
         </div>
         <div class="banner notification home-page-card">
@@ -68,8 +67,8 @@
                                 <p>Current:</p>
                             </td>
                             <td>
-                                <p><img class="" id="weather_icon" src="images/01d@4x.png" height="42" width="42" loading="lazy"
-                                        alt="weather icon"></p>
+                                <p><img class="" id="weather_icon" src="images/01d@4x.png" height="42" width="42"
+                                        loading="lazy" alt="weather icon"></p>
                             </td>
                             <td>
                                 <h4><span id='temperature'>32</span>°F</h4>
@@ -149,45 +148,19 @@
                     </table>
                 </div>
             </div>
+
             <div class="about-card home-page-card">
                 <div>
-                    <h3 class="news-header">News</h3>
+                    <h3 class="news-header" style="display: none">News</h3>
                     <ul class="news-list">
                     </ul>
                 </div>
 
-                <h2>About The Derbyshire Scenic Acres Water Association</h2>
-                <img src="images/dwmap.jpg" alt="system aerial map" width="400" height="225">
-                <p>Our water district was founded in unincorporated King County in 1960, the nearest city being Kent. 
-                    Nearly all of the system was annexed into Auburn in 2008. We currently serve 59 homes in the neighborhood, stretching 4
-                    houses east and west of 118th Ave from SE 280th St to SE 288th St. Bylaws restrict service to 1 service-line hookup per lot.
-                </p>
-                <p> The well and pumphouse is located on the
-                    corner of 118th Ave and SE 282nd, and contains
-                    our water treatment system and a diesel
-                    generator which kicks on automatically in the
-                    event of a power outage.
-                </p>
-                <p>
-                    Our water is tested weekly. Water quality reports
-                    are done on a regular basis and sent to
-                    residents annually. Reach out to the Secretary if
-                    you did not receive one.
-                </p>
-                <p>
-                    As of 2024 we are in the process of a complete
-                    upgrade to the overall water distribution system,
-                    for the first time in over 60 years. This is
-                    designed to improve service reliability and
-                    quality.
-                
-                </p>
-            </div>
-
-            <div class="home-page-card status-card">
                 <h2>Rate Changes</h2>
-                <p >The board met in 2024 and approved water rate increases as outlined in the following document. The summary is a $40/month maintenance free charge
-                    to fund the water system replacement project, plus a 3% annual increase in the base rate to cover increased operating costs.
+                <p>The board met in 2024 and approved water rate increases as outlined in the following document. The
+                    summary is a $40/month maintenance fee charge
+                    to fund the water system replacement project, plus a 3% annual increase in the base rate to cover
+                    increased operating costs.
                 </p>
                 <ul>
                     <li>Jan 2025: Basic charge increased to $257.50 every 4 months
@@ -196,93 +169,72 @@
                                 over 4000 ft³ charged at $3.40 per 100 ft³.
                             </li>
                             <li>
-                                over 8000 ft³ charged at $3.81 per 100 ft³.                           
+                                over 8000 ft³ charged at $3.81 per 100 ft³.
                             </li>
-                        </ul>   
+                        </ul>
                     </li>
-                    <br>
-                    <li>Nov 2025: Basic charge increased to $265.23 every 4 months
+                    <li style="margin-top: 1em">Nov 2025: Basic charge increased to $265.23 every 4 months
                         <ul>
                             <li>
                                 over 4000 ft³ charged at $3.51 per 100 ft³.
                             </li>
                             <li>
-                                over 8000 ft³ charged at $3.93 per 100 ft³.                           
+                                over 8000 ft³ charged at $3.93 per 100 ft³.
                             </li>
-                        </ul> 
-                    </li>  
+                        </ul>
+                    </li>
                 </ul>
-                <a href="https://docs.google.com/document/d/1_daagtBZPiGjRd97ThxhSohuKGVG2HAgVZPeosDzNdo/edit?usp=sharing">
+                <a
+                    href="https://docs.google.com/document/d/1_daagtBZPiGjRd97ThxhSohuKGVG2HAgVZPeosDzNdo/edit?usp=sharing">
                     Special Notice of Rate Change
                 </a>
                 <p>
-                    In 2025, the board approved a change to the schedule for annual rate increases to align with the billing cycle. Future 3% increases start in November rather than January.
+                    In 2025, the board approved a change to the schedule for annual rate increases to align with the
+                    billing cycle. Future 3% increases start in November rather than January.
                 </p>
-                
             </div>
+
             <div class="home-page-card status-card">
-                <h2>Recent water system updates</h2>
+                <h2>Recent Water System Updates</h2>
                 <ul>
                     <li>
-                        Starting July 3rd, we started to have low water pressure in the system. Nothing at the pump house appeared
-                        to be wrong. Over the next couple days, we continued to have low pressure, and the reservior was 
-                        found to be low. We called Northwest Water Service (NWS) out to help 2 leaks that were identified. The first 
-                        was a small leak on a lateral line between two homes on the west end of 282nd st. The second leak was large. While
-                        nearly all of our lines run in the right of way next to the streets, we do have one line that was put along a
-                        back fence line at the north edge of the system. Currently that area is covered with blackberries, so it
-                        can be difficult to know if we have a leak in that line. <br>
-                        We did indeed have a break back there, a union had been eroded over time by a small leak, and now it was
-                        leaking a lot. You can see the union and the blackberries covering this area below.
+                        <b>Aug 19-20 2026:</b> We had maintenance with NWS scheduled Aug 19 to repair several leaks in the pumphouse. NWS
+                        completed the work, but pressure did not return to normal the remainder of the day.
+                        <br><br>
+                        On the morning of Aug 20, we confirmed that everything in the pumphouse had power and seemed to be operational. At this point
+                        we believed that turning the system back on caused a leak somewhere. We walked the system, but found no leaks anywhere,
+                        so we called NWS to come back out, and they arrived around 2pm. After an hour of investigation, they found that a valve
+                        that should be left off got turned on and that was bleeding the pressure from the pressure tank into the reservoir. Pressure returned
+                        to normal around 3pm.
                     </li>
-                    <img src="images/coupler_july_25.jpg" >
-                    <img src="images/blackberries_july_25.jpg" >
-                
-                    <li>
-                        July 9,10: We've been having problems with our chlorine pump; it stopped adding chlorine. NWS was out for a couple days,
+                    <li style="margin-top: 1em">
+                        <b>July 3rd 2025:</b> We started to have low water pressure in the system. Nothing at the pump
+                        house appeared
+                        to be wrong. Over the next couple days, we continued to have low pressure, and the reservior was
+                        found to be low. We called Northwest Water Service (NWS) out to help 2 leaks that were
+                        identified. The first
+                        was a small leak on a lateral line between two homes on the west end of 282nd st. The second
+                        leak was large. While
+                        nearly all of our lines run in the right of way next to the streets, we do have one line that
+                        was put along a
+                        back fence line at the north edge of the system. Currently that area is covered with
+                        blackberries, so it
+                        can be difficult to know if we have a leak in that line. <br>
+                        We did indeed have a break back there, a union had been eroded over time by a small leak, and
+                        now it was
+                        leaking a lot. You can see the union and the blackberries covering this area below.
+                        <br><br>
+                        <div style="text-align: center;">
+                            <img src="images/coupler_july_25.jpg">
+                            <img src="images/blackberries_july_25.jpg">
+                        </div>
+                    </li>
+                    <li style="margin-top: 1em">
+                        <b>July 9,10 2025:</b> We've been having problems with our chlorine pump; it stopped adding chlorine. NWS
+                        was out for a couple days,
                         and was able to rebuild the pump. So Chlorine levels are back to normal.
                     </li>
                 </ul>
-                <h2>Main replacement project status</h2>
-                <p >Association Board approved three motions this last year. The first was to request a loan from the State of Washington 
-                    through the Perpetual Water fund to fund Northwest Water Services to create a plan to replace our aging water 
-                    system. The reasons are two fold:
-                </p>
-                <h4>Breaks are more frequent and more expensive</h4>
-                <p >
-                    First, we have many more breaks in the system than we previously did, and the materials that were using in the 1950'
-                    to build the system are not up to the standards of today.
-                </p>
-                <img src="images/old_vs_new_pipe.jpg" alt="system aerial map" width="400" height="100">
-                <h4>Water Loss</h4>
-
-                <p >
-                    The second reason is that we lose about 30% of the water that we pump from the ground through leaks
-                    in the system, which is wasteful, costs us extra electricity to pump, and is not in compliance with
-                    state standards. 
-                </p>
-                <p>
-                    The project plan has been completed, and we are in the process of getting bids from companies at this time.
-                </p>
-                <h4>Project Plan Funding</h4>
-                <p >
-                    The second motion that was passed was to pursue a State of Washington Perpetual Water Fund low interest loan. We 
-                    received a loan last year to fund the project plan, and the loan would allow us to fund the replacement system. The 
-                    loan application should be submitted in October 2024.
-                </p>
-                <h4>Federal Grant identification and application</h4>
-                <p>
-                    The third motion was to fund the pursuit of federal grants to cover some of the cost of the replacement. We have been working
-                    with a grant writing company who specializes in identifying and preparing the grant submission paperwork. We are in the process
-                    of applying for a grant that would cover up to 50% of the cost. Current costs are estimated to be over $1,000,000, so we are 
-                    hopeful that a grant is approved. The grant application will be submitted prior to Oct 7, 2024.
-                </p>
-                <h4>Status 7/11/2025</h4>
-                <p>
-                    All government grants were put on hold at the beginning of the year, so we were not able to secure a grant.
-                    Our loan was not approved by the State of Washington. The board is looking at alternative plans to be able to 
-                    do the project incrementally.
-                </p>
-
             </div>
         </div>
     </main>

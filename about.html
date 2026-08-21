@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Derbyshire Scenic Acres Water Association">
+    <meta name="theme-color" content="blue">
+    <meta name="name" content="Derbyshire Water">
+    <meta name="application-name" content="Derbyshire-Water">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="icon" sizes="128x128" href="images/dw-logo_128.png">
+    <link rel="icon" sizes="180x180" href="images/dw-logo_180.png">
+    <link rel="icon" sizes="192x192" href="images/dw-logo_192.png">
+    <link rel="icon" sizes="256x256" href="images/dw-logo_256.png">
+    <link rel="icon" sizes="512x512" href="images/dw-logo_512.png">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="scripts/script.js" defer></script>
+    <script type="text/javascript">
+        $(function () {
+            $("[data-load]").each(function () {
+                $(this).load($(this).data("load"), function () {
+                });
+            });
+        })
+    </script>
+    <title>About | Derbyshire Water</title>
+</head>
+
+<body>
+    <div data-load="header.html"></div>
+    <main>
+        <div class="about-us-card-container">
+            <div class="home-page-card" style="width: 100%">
+                <h2>About The Derbyshire Scenic Acres Water Association</h2>
+                <img src="images/dwmap.jpg" alt="system aerial map" width="400" height="225">
+                <p>Our water district was founded in unincorporated King County in 1960, the nearest city being Kent.
+                    Nearly all of the system was annexed into Auburn in 2008. We currently serve 59 homes in the
+                    neighborhood, stretching 4
+                    houses east and west of 118th Ave from SE 280th St to SE 288th St. Bylaws restrict service to 1
+                    service-line hookup per lot.
+                </p>
+                <p>The well and pumphouse is located on the
+                    corner of 118th Ave and SE 282nd, and contains
+                    our water treatment system and a diesel
+                    generator which kicks on automatically in the
+                    event of a power outage.
+                </p>
+                <p>
+                    Our water is tested weekly. Water quality reports
+                    are done on a regular basis and sent to
+                    residents annually. Reach out to the Secretary if
+                    you did not receive one.
+                </p>
+                <p>
+                    As of 2024 we are in the process of a complete
+                    upgrade to the overall water distribution system,
+                    for the first time in over 60 years. This is
+                    designed to improve service reliability and
+                    quality.
+                </p>
+            </div>
+        </div>
+    </main>
+    <div data-load="footer.html"></div>
+</body>
+
+</html>

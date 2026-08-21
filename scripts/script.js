@@ -42,8 +42,9 @@ async function displayNewsIfValid() {
             }
         }
 
-        if (!newsItemDisplayed) {
-            document.querySelector('.news-header').style.display = 'none';
+        if (newsItemDisplayed) {
+            const newsHeader = document.querySelector('.news-header');
+            if (newsHeader) newsHeader.style.display = '';
         }
     } catch (err) {
         console.error('Error displaying banner:', err);
